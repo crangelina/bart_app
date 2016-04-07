@@ -1,4 +1,3 @@
-require 'pp'
 require 'rest-client'
 require 'sinatra'
 require 'json'
