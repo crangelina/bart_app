@@ -1,0 +1,84 @@
+#background {
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  background-image: url("/images/bart.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: .70;
+  -webkit-filter: blur(7px);
+  -moz-filter: blur(7px);
+  -o-filter: blur(7px);
+  -ms-filter: blur(7px);
+  filter: blur(7px); }
+
+.container-fluid {
+  padding: 0; }
+
+.outer-content-styling {
+  position: relative;
+  vertical-align: middle;
+  z-index: 2;
+  margin-top: 21%;
+  margin-bottom: 30px; }
+
+.content {
+  overflow: auto;
+  border-radius: 5px;
+  padding-bottom: 20px;
+  margin-right: 0px;
+  text-align: center;
+  min-height: 460px;
+  font-family: 'Open Sans', sans-serif;
+  background: rgba(236, 240, 241, 0.4); }
+  .content select {
+    background: rgba(255, 255, 255, 0.6); }
+    .content select[name="origin"] {
+      margin-top: 20px; }
+  .content button {
+    background-color: #566eae;
+    border-color: #5167a5; }
+    .content button:hover {
+      background-color: #4c629f;
+      border-color: #44578e; }
+  .content select,
+  .content button {
+    margin: 5px auto;
+    width: 95%;
+    height: 60px;
+    font-size: 20px; }
+  .content .results h1 {
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3); }
+    .content .results h1 i {
+      color: #7885A4; }
+  .content .results .test {
+    background-color: #fff;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px 10px 0 10px;
+    opacity: .4;
+    border-radius: 5px;
+    border: 1px solid #ababab; }
+  .content .results h4 {
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+    font-size: 20px; }
+    .content .results h4 i {
+      color: #566eae;
+      font-size: 22px; }
+  .content .results p {
+    font-size: 16px;
+    font-weight: 300; }
+  .content .results span {
+    font-size: 14px;
+    padding: 0 5px 0 8px;
+    border-left: 1px solid black; }
+    .content .results span:first-child {
+      border: none; }
+
+@media (max-width: 767px) {
+  .outer-content-styling {
+    margin-top: 10%; } }
+
+/*# sourceMappingURL=output.css.map */
